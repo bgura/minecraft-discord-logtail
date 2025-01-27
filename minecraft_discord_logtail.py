@@ -148,7 +148,7 @@ class LogTailer:
       self._close_file()
 
 
-if __name__ == '__main__': # Everything in loop in case of any error
+if __name__ == '__main__': 
   try:
     tailer = LogTailer(MINECRAFT_LOGS)
     tailer.tail()
